@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #F9DFF9;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_1">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>40</y>
+      <width>260</width>
+      <height>260</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 5px solid #f7f2f2</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>profile.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_1">
+    <property name="geometry">
+     <rect>
+      <x>65</x>
+      <y>365</y>
+      <width>370</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding: 15px 30px;
+font-size: 16px;
+border-radius: 15px;
+background: #FAFAFA;
+border: none;</string>
+    </property>
+    <property name="text">
+     <string>Brian Schneider</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>340</y>
+      <width>101</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#7f8c8d</string>
+    </property>
+    <property name="text">
+     <string>Full name</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>425</y>
+      <width>101</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#7f8c8d</string>
+    </property>
+    <property name="text">
+     <string>Specialization</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>65</x>
+      <y>450</y>
+      <width>370</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding: 15px 30px;
+font-size: 16px;
+border-radius: 15px;
+background: #FAFAFA;
+border: none;</string>
+    </property>
+    <property name="text">
+     <string>ENT-doctor</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>515</y>
+      <width>101</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#7f8c8d</string>
+    </property>
+    <property name="text">
+     <string>Working hours</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>65</x>
+      <y>540</y>
+      <width>370</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding: 15px 30px;
+font-size: 16px;
+border-radius: 15px;
+background: #FAFAFA;
+border: none;</string>
+    </property>
+    <property name="text">
+     <string>9.00 - 18.00</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>605</y>
+      <width>101</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#7f8c8d</string>
+    </property>
+    <property name="text">
+     <string>$/hour</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>65</x>
+      <y>630</y>
+      <width>370</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding: 15px 30px;
+font-size: 16px;
+border-radius: 15px;
+background: #FAFAFA;
+border: none;</string>
+    </property>
+    <property name="text">
+     <string>12$</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>243</x>
+      <y>715</y>
+      <width>201</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 15px;
+  background: #2780DD;
+  border: none;
+  text-align: center;
+  color: #fff;
+}
+
+QPushButton:pressed {
+  background: #2B5DAA;
+}</string>
+    </property>
+    <property name="text">
+     <string>Make appointment</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_1">
+    <property name="geometry">
+     <rect>
+      <x>65</x>
+      <y>715</y>
+      <width>121</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 15px;
+  background: #ED3C34;
+  border: none;
+  text-align: center;
+  color: #fff;
+}
+
+QPushButton:pressed {
+  background: #AA2823;
+}</string>
+    </property>
+    <property name="text">
+     <string>Close</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
